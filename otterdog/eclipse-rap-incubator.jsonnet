@@ -3,13 +3,7 @@ local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 orgs.newOrg('eclipse-rap-incubator') {
   settings+: {
     description: "",
-    members_can_change_project_visibility: false,
-    members_can_change_repo_visibility: false,
-    members_can_create_teams: false,
-    members_can_delete_repositories: false,
     name: "Eclipse RAP Incubator",
-    packages_containers_internal: false,
-    packages_containers_public: false,
     web_commit_signoff_required: false,
     workflows+: {
       actions_can_approve_pull_request_reviews: false,
@@ -21,8 +15,6 @@ orgs.newOrg('eclipse-rap-incubator') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
     },
     orgs.newRepo('org.eclipse.rap.incubator.clientscripting') {
@@ -30,8 +22,6 @@ orgs.newOrg('eclipse-rap-incubator') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
     },
     orgs.newRepo('org.eclipse.rap.incubator.cnf') {
@@ -39,8 +29,6 @@ orgs.newOrg('eclipse-rap-incubator') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
     },
     orgs.newRepo('org.eclipse.rap.incubator.dropdown') {
@@ -48,8 +36,6 @@ orgs.newOrg('eclipse-rap-incubator') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
     },
     orgs.newRepo('org.eclipse.rap.incubator.e4') {
@@ -57,8 +43,6 @@ orgs.newOrg('eclipse-rap-incubator') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
     },
     orgs.newRepo('org.eclipse.rap.incubator.e4.compatibility.workbench') {
@@ -66,8 +50,6 @@ orgs.newOrg('eclipse-rap-incubator') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
     },
     orgs.newRepo('org.eclipse.rap.incubator.fileupload') {
@@ -75,8 +57,6 @@ orgs.newOrg('eclipse-rap-incubator') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
     },
     orgs.newRepo('org.eclipse.rap.incubator.gef') {
@@ -84,8 +64,6 @@ orgs.newOrg('eclipse-rap-incubator') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
     },
     orgs.newRepo('org.eclipse.rap.incubator.nebula-grid') {
@@ -93,8 +71,6 @@ orgs.newOrg('eclipse-rap-incubator') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
     },
     orgs.newRepo('org.eclipse.rap.incubator.osgi-packaging') {
@@ -102,8 +78,6 @@ orgs.newOrg('eclipse-rap-incubator') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
     },
     orgs.newRepo('org.eclipse.rap.incubator.pde') {
@@ -111,8 +85,6 @@ orgs.newOrg('eclipse-rap-incubator') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
     },
     orgs.newRepo('org.eclipse.rap.incubator.releng') {
@@ -120,8 +92,6 @@ orgs.newOrg('eclipse-rap-incubator') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
     },
     orgs.newRepo('org.eclipse.rap.incubator.richtext') {
@@ -129,8 +99,6 @@ orgs.newOrg('eclipse-rap-incubator') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
     },
     orgs.newRepo('org.eclipse.rap.incubator.spreadsheet') {
@@ -138,8 +106,6 @@ orgs.newOrg('eclipse-rap-incubator') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
     },
     orgs.newRepo('org.eclipse.rap.incubator.tabbed-properties') {
@@ -147,8 +113,6 @@ orgs.newOrg('eclipse-rap-incubator') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
     },
     orgs.newRepo('org.eclipse.rap.incubator.themeeditor') {
@@ -156,8 +120,6 @@ orgs.newOrg('eclipse-rap-incubator') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
     },
     orgs.newRepo('org.eclipse.rap.incubator.visualization') {
@@ -165,8 +127,6 @@ orgs.newOrg('eclipse-rap-incubator') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
-      secret_scanning: "disabled",
-      secret_scanning_push_protection: "disabled",
       web_commit_signoff_required: false,
     },
   ],

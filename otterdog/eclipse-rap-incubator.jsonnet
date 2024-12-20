@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-rap-incubator') {
+orgs.newOrg('rt.rap.incubator', 'eclipse-rap-incubator') {
   settings+: {
     description: "",
     name: "Eclipse RAP Incubator",

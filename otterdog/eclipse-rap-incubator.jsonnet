@@ -52,6 +52,14 @@ orgs.newOrg('rt.rap.incubator', 'eclipse-rap-incubator') {
       delete_branch_on_merge: false,
       web_commit_signoff_required: false,
     },
+    orgs.newRepo('org.eclipse.rap.incubator.e4.compatibility.workbench-2') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      default_branch: "3.4",
+      delete_branch_on_merge: false,
+      description: "rap incubator e4 compatibility workbench",
+      web_commit_signoff_required: false,
+    },
     orgs.newRepo('org.eclipse.rap.incubator.fileupload') {
       allow_merge_commit: true,
       allow_update_branch: false,
